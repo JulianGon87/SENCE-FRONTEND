@@ -1,0 +1,18 @@
+/* BASE */
+body { font-family: 'Outfit', sans-serif; }
+a { text-decoration: none; }
+
+/* LAYOUT */
+.l-container { max-width: 1200px; margin: 0 auto; }
+.l-header { height: 80px; position: fixed; }
+
+/* MODULE */
+.m-product-card { background: var(--surface-color); }
+.m-nav-links { display: flex; gap: 2rem; }
+
+/* STATE */
+.is-active { color: var(--text-primary); }
+.is-hidden { display: none; }
+
+/* THEME */
+.theme-dark { --bg-color: #0f172a; }

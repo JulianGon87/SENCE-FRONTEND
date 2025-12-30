@@ -1,0 +1,66 @@
+.course-card {
+    background-color: $color-white;
+    border-radius: 3rem;
+    padding: 4rem;
+    text-align: center;
+    @include card-hover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__icon {
+        font-size: 6rem;
+        margin-bottom: 2rem;
+        background: $color-grey-light;
+        width: 12rem;
+        height: 12rem;
+        @include flex-center;
+        border-radius: 50%;
+    }
+
+    &__title {
+        margin-bottom: 1.5rem;
+    }
+
+    &__description {
+        font-size: 1.6rem;
+        color: $color-grey-dark;
+        margin-bottom: 3rem;
+        flex-grow: 1;
+    }
+
+    &__age {
+        display: inline-block;
+        padding: 0.5rem 1.5rem;
+        background-color: rgba($color-primary, 0.1);
+        color: $color-primary;
+        border-radius: 2rem;
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+
+    &__btn {
+        @include btn-style(rgba($color-primary, 0.1), $color-primary);
+        padding: 1rem 2.5rem;
+        font-size: 1.4rem;
+
+        &:hover {
+            background-color: $color-primary;
+            color: white;
+            box-shadow: none;
+        }
+    }
+
+    &--scratch {
+        border-bottom: 8px solid #ffcc00;
+    }
+
+    &--python {
+        border-bottom: 8px solid #4584b6;
+    }
+
+    &--robbie {
+        border-bottom: 8px solid #00ffaa;
+    }
+}

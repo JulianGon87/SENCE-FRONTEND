@@ -1,0 +1,25 @@
+// 1. Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// 2. Base
+@import 'base/reset';
+@import 'base/typography';
+
+// 3. Components
+@import 'components/buttons';
+@import 'components/cards';
+
+// 4. Layout
+@import 'layout/container';
+@import 'layout/header';
+@import 'layout/footer';
+
+// 5. Pages
+@import 'pages/home';
+
+// 6. Themes (Vacio por ahora pero parte de la estructura 7-1)
+// @import 'themes/theme';
+
+// 7. Vendors (Vacio por ahora pero parte de la estructura 7-1)
+// @import 'vendors/vendor';

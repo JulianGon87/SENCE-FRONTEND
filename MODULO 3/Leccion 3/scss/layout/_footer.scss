@@ -1,0 +1,83 @@
+.footer {
+    background-color: $color-black;
+    color: $color-white;
+    padding: 8rem 0 4rem;
+    margin-top: 10rem;
+
+    &__container {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 8rem;
+
+        @include respond-to(medium) {
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+        }
+
+        @include respond-to(small) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__info {
+        .header__logo-text {
+            color: $color-white;
+        }
+    }
+
+    &__tagline {
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        color: $color-grey-dark;
+    }
+
+    h4 {
+        color: $color-white;
+        margin-bottom: 3rem;
+        font-size: 2rem;
+    }
+
+    &__links {
+        ul {
+            li {
+                margin-bottom: 1.5rem;
+
+                a {
+                    color: $color-grey-dark;
+                    transition: $transit-fast;
+
+                    &:hover {
+                        color: $color-primary;
+                        padding-left: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    &__social {
+        .social-icons {
+            display: flex;
+            gap: 2rem;
+            font-size: 2.4rem;
+
+            span {
+                cursor: pointer;
+                transition: transform 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+
+    &__bottom {
+        margin-top: 8rem;
+        padding-top: 4rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: center;
+        color: $color-grey-dark;
+        font-size: 1.4rem;
+    }
+}

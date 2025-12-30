@@ -1,0 +1,34 @@
+$color-primary: #6366f1;
+$color-primary-dark: #4f46e5;
+$color-secondary: #f59e0b;
+$color-secondary-dark: #d97706;
+$color-accent: #ec4899;
+$color-success: #10b981;
+
+$color-white: #ffffff;
+$color-black: #0f172a;
+$color-grey-light: #f8fafc;
+$color-grey-dark: #64748b;
+
+$color-bg: $color-grey-light;
+$color-text: #334155;
+
+$font-primary: 'Outfit', sans-serif;
+$font-size-base: 1.6rem;
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 800;
+
+$container-width: 120rem;
+$grid-gutter: 3rem;
+
+$bp-large: 1200px;
+$bp-medium: 900px;
+$bp-small: 600px;
+
+$transit-fast: all 0.2s ease-out;
+$transit-normal: all 0.3s ease;
+
+$shadow-light: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+$shadow-medium: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+$shadow-heavy: 0 25px 50px -12px rgb(0 0 0 / 0.25);

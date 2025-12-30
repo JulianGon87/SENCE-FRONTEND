@@ -1,0 +1,25 @@
+/* Bloque: Product Card */
+.product-card { 
+    background-color: var(--surface-color); 
+    border-radius: var(--radius-lg); 
+}
+
+.product-card__image { 
+    width: 100%; 
+    object-fit: cover; 
+}
+
+.product-card__title { 
+    font-size: 1.25rem; 
+    color: var(--text-primary); 
+}
+
+.product-card--featured { 
+    border: 2px solid var(--primary-color); 
+}
+
+/* Bloque: Button */
+.btn { ... }
+.btn__icon { gap: 0.5rem; }
+.btn--primary { background: linear-gradient(...); }
+.btn--outline { border: 2px solid var(--border-color); }

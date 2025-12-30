@@ -1,0 +1,12 @@
+.btn {
+
+    &,
+    &:link,
+    &:visited {
+        @include btn-style($color-primary);
+    }
+
+    &--secondary {
+        @include btn-style($color-secondary);
+    }
+}

@@ -1,0 +1,9 @@
+.container {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 0 4rem;
+
+    @include respond-to(small) {
+        padding: 0 2rem;
+    }
+}

@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // This defines what 1rem is
+    // 10px / 16px = 62.5%
+    font-size: 62.5%;
+
+    @include respond-to(medium) {
+        font-size: 56.25%; // 9px
+    }
+
+    @include respond-to(small) {
+        font-size: 50%; // 8px
+    }
+}
+
+body {
+    box-sizing: border-box;
+    font-family: $font-primary;
+    font-weight: $font-weight-regular;
+    line-height: 1.6;
+    color: $color-text;
+    background-color: $color-bg;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
